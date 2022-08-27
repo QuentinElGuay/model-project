@@ -29,7 +29,6 @@ pytest
 ```
 
 ### Before commiting
-This project uses the  tool to format the 
 Please format your Python files to pre-defined standards using [blue](https://pypi.org/project/blue/), before committing, using:
 ```bash
 blue .
