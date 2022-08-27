@@ -17,5 +17,5 @@ jobs:
           pip install -e .[dev]
       - name: Test with pytest
         run: |
-          pytest
+          pytest -vv
 

@@ -1,5 +1,5 @@
 def mirror(s: str) -> str:
-    return s[::-1]
+    return s[::-2]
 
 
 def is_palindrome(s: str) -> bool:
