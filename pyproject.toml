@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools ~=65.3.0", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "model-package"
+authors = [
+    {name = "Quentin Leguay", email = "quentinleguay.pro@gmail.com"}
+]
+description = "Doesn nothing but try to make it well"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.10.0"
+license = {text = 'GPLv3'}
+dependencies = [
+
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest ~=7.1.2"
+]
+
+[tool.blue]
+line-length = 79
+
+# pyproject.toml
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+
+[tool.setuptools.packages]
+find = {}  # Scan the project directory with the default parameters
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}
