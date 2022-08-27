@@ -1,5 +1,6 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools ~=65.3.0", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
 
 [project]
 name = "model-package"
