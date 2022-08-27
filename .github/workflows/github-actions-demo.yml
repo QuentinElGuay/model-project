@@ -1,10 +1,10 @@
-name: GitHub Actions Demo
+name: Code validation on Pull Requests
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - stage
+    # branches:
+    #   - main
+    #   - stage
   pull_request:
 jobs:
   Pytest:
