@@ -7,7 +7,7 @@ name = "model-package"
 authors = [
     {name = "Quentin Leguay", email = "quentinleguay.pro@gmail.com"}
 ]
-description = "Doesn nothing but try to make it well"
+description = "Does nothing but try to make it well"
 readme = "README.md"
 version = "0.0.1"
 requires-python = ">=3.10.0"
