@@ -2,7 +2,7 @@ from typing import List
 
 
 def mirror(s: str) -> str:
-    return s[::-2]
+    return s[::-1]
 
 
 def is_palindrome(s: str) -> bool:
