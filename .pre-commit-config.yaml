@@ -1,0 +1,26 @@
+repos:
+  - repo: http://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+    -  id: check-added-large-files
+    -  id: check-yaml
+    -  id: debug-statements
+       language_version: python3
+    -  id: end-of-file-fixer
+    -  id: trailing-whitespace
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 5.0.4
+    hooks:
+      -  id: flake8
+         language_version: python3
+
+  - repo: https://github.com/grantjenks/blue
+    rev: v0.9.1
+    hooks:
+      -  id: blue
+
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.8.2
+    hooks:
+      -  id: reorder-python-imports
